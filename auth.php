@@ -8,7 +8,7 @@ session_start();
 		header('Location: index.html');
 	}
 	
-	$conn = mysqli_connect($servername, $dbusername, $dbpassword,'project');
+	$conn = mysqli_connect($servername, $dbusername, $dbpassword,'dbtest1');
 	
 	// Check connection
 	if (!$conn) {
