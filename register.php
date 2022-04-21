@@ -14,7 +14,7 @@ $hash=hash('sha256', $password1);
 
 $_SESSION["sess_lastname"]=$_POST["lastname"];
 
-$mysqli = new mysqli("localhost","root","root","project");
+$mysqli = new mysqli("localhost","root","root","dbtest1");
     if ($mysqli->connect_error){
         die('Could not connect to database!');
     }
