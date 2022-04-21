@@ -18,7 +18,7 @@ $dbpassword = "root";
 $net_id= $_SESSION['sess_username'];
 
 // Create connection
-$conn = mysqli_connect($servername, $dbusername, $dbpassword,'project');
+$conn = mysqli_connect($servername, $dbusername, $dbpassword,'dbtest1');
 
 $c_id = $_POST["c_id"];
 
