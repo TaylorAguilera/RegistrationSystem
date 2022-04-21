@@ -19,7 +19,7 @@ $net_id= $_SESSION['sess_username'];
 $c_id = $_POST["c_id"];
 
 // Create connection
-$conn = mysqli_connect($servername, $dbusername, $dbpassword,'project');
+$conn = mysqli_connect($servername, $dbusername, $dbpassword,'dbtest1');
 
 $result = mysqli_query($conn,"select term_id from term_code where status = 1");
 
