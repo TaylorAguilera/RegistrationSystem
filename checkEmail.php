@@ -5,7 +5,7 @@ $dbusername = "root";
 $dbpassword = "root";
 
 // Create connection
-$conn = mysqli_connect($servername, $dbusername, $dbpassword,'project');
+$conn = mysqli_connect($servername, $dbusername, $dbpassword,'dbtest1');
 
 $email = $_GET["email"];
 
