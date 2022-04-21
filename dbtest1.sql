@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 15, 2022 at 03:50 AM
+-- Generation Time: Apr 21, 2022 at 04:16 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.28
 
@@ -37,6 +37,19 @@ CREATE TABLE `course_details` (
   `CRN` varchar(5) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `course_details`
+--
+
+INSERT INTO `course_details` (`c_id`, `c_no`, `s_no`, `d_no`, `c_name`, `descr`, `CRN`) VALUES
+(1, '1', '2', '3', 'Intro to Information Systems', 'Introduces students to the world of Information Systems and all of the career pathways it allows students to follow', '30214'),
+(2, '2', '1', '6', 'Intro to Computer Science', 'Introduces students to the world of Computer Science and all of it\'s career pathways', '30345'),
+(3, '5', '6', '8', 'Intro to databases', 'Introduces students to Databases', '30568'),
+(4, '10', '5', '8', 'Intro to Java Programming', 'Introduces students to the Java programming language', '30483'),
+(5, '7', '9', '13', 'Intro to Cyber Security', 'Introduces students to concepts of Cyber Security', '30867'),
+(6, '10', '16', '15', 'Intro to Networking', 'Introduces students to concepts in Networking and how communication systems operate ', '34715'),
+(7, '15', '18', '17', 'Networking 2', 'Continues students through more concepts in Networking', '30216'),
+(8, '20', '25', '16', 'Databases 2', 'Student\'s continue learning concepts about Databases', '30851');
 -- --------------------------------------------------------
 
 --
